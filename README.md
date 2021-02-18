@@ -18,3 +18,13 @@ Tiene implementadas varias utilidades:
 Para poder usar este ejercicio es necesario un entorno WAMP, LAMP o XAMP. (En mi caso usé WAMP). En la Base de Datos se debe ejecutar el script *“Crear_tablas.sql”* para crear las tablas necesarias y algunos usuarios para que pueda funcionar el ejercicio. Las claves de los usuarios son *“123456”*.
 
 El siguiente paso en configurar los datos de la base de datos en las primeras líneas del fichero *“Conexión.php”*. En ellas hay que definir el usuario, contraseña, servidor, base de datos y puerto. En el ejemplo están las que usa por defecto WAMP.
+
+define('USER', 'root');
+
+define('PASSWORD', '');
+
+define('HOST', 'localhost');
+
+define('DATABASE', 'daw2');
+
+define('PORT', '3308');
