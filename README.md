@@ -44,3 +44,8 @@ define('PORT', '3308');
 [Consultas a bases de datos desde PHP con PDO](https://josehernandez.es/2012/01/07/consultas-base-datos-pdo.html)
 
 [Como recorrer consulta PDO en PHP](https://es.stackoverflow.com/questions/68150/como-recorrer-consulta-pdo-en-php)
+
+CSS - [Group Input Search Form Design Using Html & CSS | Form Input Group](https://www.youtube.com/watch?v=WTO2jm-cpaM)
+
+CSS - [How To Create a Login Form - Simple Sign In Page Design in Htlm and CSS](https://www.youtube.com/watch?v=VegNcFl4EhA&t=9s)
+
