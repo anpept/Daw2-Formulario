@@ -1,0 +1,156 @@
+/*Estilos globales*/
+body{
+	margin:0;
+	padding: 0;
+	font-family: sans-serif;
+	background: #ffcc80;
+	
+}
+body:before{
+	content:'';
+	position:absolute;
+	top:0;
+	left:-25%;
+	width:50%;
+	height:100%;
+	background: #03a9f4;
+	opacity: 0.8;
+}
+
+/*Página del login*/
+
+.formulario-login{
+	position: absolute;
+	top: 50%;
+	left:25%;
+	transform: translate(-50%, -50%); /*Centrado en la mitad izquierda*/
+	width: 350px;
+	min-height: 400px;
+	background: #ffffff;
+	box-shadow: 0 15px 50px rgba(0,0,0,.5);
+	padding: 50px;
+	box-sizing: border-box;
+}
+
+.formulario-login h2, .formulario h2, .contenedor h2{
+	color: #777777;
+	margin: 0 0 40px;
+	padding: 0;	
+}
+
+.formulario-login .form-element, .formulario .form-element{
+	position: relative;
+	margin: 20px 0;	
+}
+.formulario-login .form-element input{
+	width: 100%;
+	font-size: 16px;
+	border:none;
+	border-bottom: 2px solid #777777;
+	outline:none;
+	padding:10px;
+	padding-left:25px;
+	box-sizing: border-box;
+	/*font-weight: bold;*/
+	color: #777777;
+	
+}
+.formulario-login .form-element input:focus, .formulario .form-element input:focus{ /*Cuando el foco está en el elemento*/
+	border-bottom: 2px solid #03a9f4;
+	
+}
+
+.formulario-login .form-element .fa{
+	position: absolute;
+	top: 8px;
+	left: 0;
+	font-size: 18px;
+	color: #777777;
+	
+}
+
+.formulario-login .form-element input[type="submit"], .formulario .form-element input[type="submit"]{
+	border: none;
+	cursor: pointer;
+	background: #03a9f4;
+	color: #ffffff;
+	font-weight: bold;
+	transition: 0.5s;
+	
+}
+.formulario-login .form-element input[type="submit"]:hover, .formulario .form-element input[type="submit"]:hover{
+	background: #ff4987;
+}
+
+.mensaje-error, .error{
+	color: #8B0000;
+}
+
+/*Página del formulario*/
+
+.formulario, .contenedor{
+	position: absolute;
+	top: 45%;
+	left: 45%;
+	transform: translate(-50%, -50%); /*Centrado en la mitad izquierda*/
+	width: 600px;
+	min-height: 500px;
+	background: #ffffff;
+	box-shadow: 0 15px 50px rgba(0,0,0,.5);
+	padding: 50px;
+	box-sizing: border-box;
+}
+
+
+.formulario .form-element input{
+	width: 100%;
+	font-size: 16px;
+	border:none;
+	border-bottom: 2px solid #777777;
+	outline:none;
+	padding:10px;
+	box-sizing: border-box;
+	color: #777777;
+	
+}
+
+.formulario a, .contenedor a{
+	text-decoration: none;
+	color: #03a9f4;
+	margin-top: 20px;
+	font-weight: bold;
+	display: inline-block;
+	transition: 0.5s;
+	margin-left: 15px;
+}
+
+.formulario a:hover, .contenedor a:hover{
+	color: #ff4987;
+}
+
+.formulario .form-element select{
+	position: relative;
+	border: none;
+	outline: none;
+	background: #ffffff;
+	padding: 10px;
+	color: #777777;
+	width: 100%;
+	border-bottom: 2px solid #777777;
+	text-decoration: none;
+	font-size: 16px;
+	
+}
+
+/*Estilos de palabras.php*/
+
+.contenedor table{
+	width:100%;
+}
+
+.contenedor table th{
+	text-align: left;
+}
+
+
+

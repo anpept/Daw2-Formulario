@@ -14,7 +14,7 @@
 	 
     if (!$result) { 
 	//No existe el usuario introducido Se envía un 1 a través de GET.        
-		header("location: ../login.php?Error=1");
+		header("location: ../index.php?Error=1");
     } else {
         if (password_verify($password, $result['password'])) { 
 		//Inicio de Sesión Correcto
@@ -23,7 +23,7 @@
 			header("location: ../formulario.php");
         } else { 
 		//Contraseña incorrecta, se envía un 1 a través de GET
-			header("location: ../login.php?Error=1");
+			header("location: ../index.php?Error=1");
         }
     }
 
