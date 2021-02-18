@@ -28,3 +28,19 @@ define('HOST', 'localhost');
 define('DATABASE', 'daw2');
 
 define('PORT', '3308');
+
+###### EL código usado en este ejercicio está extraído de las siguientes páginas:
+
+[Formulario de inicio de sesión con PHP & MySQL](https://obedalvarado.pw/blog/formulario-inicio-sesion-php-mysql/)
+
+[Sistema de Login con Sesiones usando PHP Y MYSQL](https://www.youtube.com/watch?v=9BLoMGO-XcU)
+
+[Crear un formulario PHP de inicio de sesión](https://code.tutsplus.com/es/tutorials/create-a-php-login-form--cms-33261)
+
+[PDO not working with Port](https://stackoverflow.com/questions/21046672/pdo-not-working-with-port)
+
+[PDOStatement::bindParam](https://www.php.net/manual/es/pdostatement.bindparam.php)
+
+[Consultas a bases de datos desde PHP con PDO](https://josehernandez.es/2012/01/07/consultas-base-datos-pdo.html)
+
+[Como recorrer consulta PDO en PHP](https://es.stackoverflow.com/questions/68150/como-recorrer-consulta-pdo-en-php)
